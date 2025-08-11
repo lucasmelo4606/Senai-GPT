@@ -2,7 +2,7 @@
 
 este é um repositorio criado paea guardar os arquivos do projeto SenaiGPT.
 
-## tecnologias
+## Tecnologias
 
 - HTML
 - CSS
