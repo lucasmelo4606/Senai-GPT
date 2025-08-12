@@ -1,25 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 .titulo{
-    font-size: 76px
+    font-size: 88px;
+    
+        font-family: Inter;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 }
 
 
 .robo-image{
-    background-color: red;
+    background-image: url(../assets/imgs/fundoLogin.png);
+    background-size: cover;
+
     width: 50vw;
     height: 100vh;
 }
 
 .page-container{
     display: flex;
+    
 }
-
+.login-container img {
+    
+    height: 60px;
+}
 .login-container{
-    background-color: blue;
+    
     width: 50vw;  
      height: 100vh;
      
@@ -31,4 +46,23 @@
      align-items: center;
      justify-content: center;
      
+     
 }
+.login{
+   
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    padding-top: 4rem;
+    button{
+        color: aliceblue;
+        margin-top: 1rem;
+        width: 10rem;
+        height: 3rem;
+        background-color: black;
+        border-radius: 8px;
+    }
+}
+.login input{ width: 23rem;
+height: 2rem;}
