@@ -5,10 +5,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+h1{  font-weight:400;}
 
 .titulo{
-    font-size: 88px;
-    
+     font-size: 88px;
+
+       
         font-family: Inter;
         display: flex;
         flex-direction: column;
@@ -37,6 +39,7 @@
     
     width: 50vw;  
      height: 100vh;
+    
      
      /* kit sobrevivencia de centralização */
 
@@ -65,4 +68,9 @@
     }
 }
 .login input{ width: 23rem;
-height: 2rem;}
+/* height: 2rem; */
+padding: 18px;
+background-color: #f7f9fb;
+border-radius: 10px;
+margin-bottom: 16px;
+}
