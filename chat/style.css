@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.menu{
+   
+    width: 14vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
