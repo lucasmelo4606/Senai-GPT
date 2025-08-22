@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ea0c1a187e.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
@@ -14,32 +15,54 @@
 
 
         <div class="menu">
-            <div class="txt" style="gap: 5px; display: flex; flex-direction: column;">
-                <button style="background-color: black; color: white; width: 190px; height: 30px;"> <img
-                        src="../assets/imgs/mais.png" alt=""> New Chat </button>
-                <p>AI Chat Tool Ethics</p>
-                <p>Al Chat Tool Impact Writing</p>
-                <p>New chat</p>
+            <div class="txt" style="gap: 10px; display: flex; flex-direction: column; font-size: 15px;">
+                <button style="background-color: black; color: white; width: 190px; height: 30px; border-radius: 10px;">
+                    <img src="../assets/imgs/mais.png" alt=""> New Chat </button>
+                <p> <i class="fa-regular fa-message"></i> AI Chat Tool Ethics</p>
+                <p><i class="fa-regular fa-message"></i> Al Chat Tool Impact Writing</p>
+                <p><i class="fa-regular fa-message"></i> New chat</p>
             </div>
         </div>
-        <div class="menu">
-           <div class="spam" style="display: flex; flex-direction: column; gap: 5px;">
-            <p>Clear conversations</p>
-            <p>Light mode</p>
-            <p>My account</p>
-            <p>Updates & FAQ</p>
-            <p>Log out</p>
-           </div>
+        <div class="menu" style="border-top: 3px dashed #791e1e1c; margin-bottom: 15px;">
+            <div class="spamm" style="display: flex; flex-direction: column; gap: 10px; justify-content: start; margin-top: 10px; ">
+                <p style=" display: flex; gap: 20px;">
+                    <i class="fa-solid fa-trash-can">
+                    </i>Clear conversations
+                </p>
+                <p style=" display: flex; gap: 20px;">
+                    <i class="fa-regular fa-sun">
+                    </i>Light mode
+                </p>
 
-        <p></p>
+                <p style=" display: flex; gap: 20px;">
+                    <i class="fa-regular fa-user">
+                    </i>My account</p>
+
+                <p style=" display: flex; gap: 20px;">
+                    <i class="fa-regular fa-user">        
+                    </i>Updates & FAQ
+                </p>
+
+                <p style=" display: flex; gap: 20px;"> 
+                    <i class="fa-solid fa-right-from-bracket">
+                    </i>Log out</p>
+            </div>
+
+            <p></p>
     </aside>
-    <main style="width: 86vw; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <main
+        style="width: 86vw; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
 
-        <div class="logo" style="width:40%; height: 122px;  background-image: url(../assets/imgs/Chat.svg); margin-bottom: 5px; background-size: cover;">
-            
+        <div class="logo"
+            style="width:49%; height: 135px;  background-image: url(../assets/imgs/Chat.svg); margin-bottom: 5px; background-size: contain; background-repeat: no-repeat;">
+
         </div>
         <div class="card" style="width: 80%; height: 30%; ">
             <div class="cards">
+                <div class="titulo">
+                    <i class="fa-regular fa-comments"></i>
+                    <h2>Examples</h2>
+                </div>
                 <div class="icon"></div>
                 <div class="texto">
                     <p>Explain quantum computing insimple terms</p>
@@ -48,21 +71,39 @@
                 </div>
             </div>
             <div class="cards">
+                <div class="titulo">
+                    <i class="fa-regular fa-star"></i>
+                    <h2>Examples</h2>
+                </div>
                 <div class="icon"></div>
-                <div class="texto" >
+                <div class="texto">
                     <p>Remembers what user saidearlier in the conversation.</p>
                     <p>Allows user to provide follow-up corrections.</p>
                     <p>Trained to decline inappropriate requests.</p>
                 </div>
             </div>
             <div class="cards">
+                <div class="titulo">
+                    <i class="fa-solid fa-shield"></i>
+                    <h2>Examples</h2>
+                </div>
                 <div class="icon"></div>
-                <div class="texto" >
+                <div class="texto">
                     <p>May occasionally generate incorrect information.</p>
                     <p>May occasionally produce harmful instructions or biased content.</p>
                     <p>Limited knowledge of world andevents after 2021.</p>
                 </div>
             </div>
+        </div>
+        
+        
+        
+        <div class="chat-input">
+           <button style=""><i class="fa-solid fa-microphone-lines"></i></button>
+           <button  ><i class="fa-regular fa-image"></i></button>
+           <input type="text" placeholder="type message...">
+           <button><i class="fa-solid fa-paper-plane"></i></button>
+
         </div>
     </main>
 

@@ -1,25 +1,26 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
 }
 
-.menu{
-   
+.menu {
+
     width: 14vw;
     height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
-   
 
-    
+
+
 }
-.card{
+
+.card {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,16 +28,56 @@ body{
 
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.texto{
+.texto {
     display: flex;
     flex-direction: column;
     gap: 15px;
 
+}
+
+.chat-input {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border-radius: 10px;
+    /* background-color: #ddd; */
+    height: 40px;
+    width: 80%;
+    border: 1px solid #ddd;
+    margin-top: 80px;
+    padding: 15px;
+
+   button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+   }
+
+   input{
+    flex: 1;
+    background: none;
+    border: none;
+    outline: none;
+    
+
+   }
+}
+
+.titulo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    i{}
 }
