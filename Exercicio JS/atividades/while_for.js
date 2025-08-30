@@ -75,15 +75,15 @@
 
 // EXERCICIO 07
  
-let numero = String(prompt("digite um numero"));
-let letras = numero.length
-let i = 0
-let soma = 0
-while (i < letras){
-    soma = soma + Number(numero[i]);
-    i++
-}
-alert(soma)
+// let numero = String(prompt("digite um numero"));
+// let letras = numero.length
+// let i = 0
+// let soma = 0
+// while (i < letras){
+//     soma = soma + Number(numero[i]);
+//     i++
+// }
+// alert(soma)
 
 
 
